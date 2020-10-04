@@ -118,7 +118,7 @@ public class ProxyImplementation extends Thread {
         Date d = new Date();
         SimpleDateFormat s = new SimpleDateFormat("MMM dd yyyy HH:mm:ss");
         try {
-            File file = new File("proxy.log");
+            File file = new File("Log.log");
 
             if(!file.exists()) {
                 file.createNewFile();
